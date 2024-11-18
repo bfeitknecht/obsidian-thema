@@ -1,8 +1,8 @@
 {
-	"name": "obsidian-thema",
-	"version": "1.0.0",
-	"minAppVersion": "1.6.0",
-	"author": "My Name",
-   	"fundingUrl": "https://ko-fi.com/yourname",
-   	"authorUrl": "https://yoururl"
+    "name": "obsidian-thema",
+    "version": "1.0.0",
+    "minAppVersion": "1.6.0",
+    "author": "Basil Feitknecht",
+    "fundingUrl": "",
+    "authorUrl": "https://github.com/bfeitknecht/obsidian-thema"
 }
