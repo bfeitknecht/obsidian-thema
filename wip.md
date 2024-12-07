@@ -7,4 +7,7 @@ what to like about minimal theme:
 - status bar is transparent in light mode
 ![[status-bar.png]]
 
-**status bar transparent doesn't really work**
+# todo
+- status bar transparent doesn't really work
+- primary and secondary colors should respect the app set highlight color
+- make headings not so huge
