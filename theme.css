@@ -41,9 +41,9 @@ to rewrite it multiple times.
 /*Text body of note*/
 --text-muted: ;
 /*Text darker for sidebar, toggles, inactive, tags, etc*/
---text-accent: #7f6df2;
+--text-accent: hsl(var(--accent-h),var(--accent-s), var(--accent-l)); /* like this you can use the accent color*/
 /*Links*/
---text-accent-hover: #8875ff;
+--text-accent-hover: #hsl(var(--accent-h),var(--accent-s), calc(1.5*var(--accent-l)));
 /*Links hover*/
 --text-faint: #666;
 /*Link brackets color & Gutter Numbers*/
