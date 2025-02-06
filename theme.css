@@ -34,34 +34,34 @@ to rewrite it multiple times.
 --background-secondary-alt: #000000;
 /*Sidebar Title background*/
 
---background-modifier-border: #333;
+--background-modifier-border: #333333;
 /*Border outline of quotes, tables, line breaks*/
 
---text-normal: #dcddde;
+--text-normal: #dcdcdc;
 /*Text body of note*/
 --text-muted: ;
 /*Text darker for sidebar, toggles, inactive, tags, etc*/
 --text-accent: hsl(var(--accent-h),var(--accent-s), var(--accent-l)); /* like this you can use the accent color*/
 /*Links*/
---text-accent-hover: #hsl(var(--accent-h),var(--accent-s), calc(1.5*var(--accent-l)));
+--text-accent-hover: hsl(var(--accent-h),var(--accent-s), calc(1.5*var(--accent-l)));
 /*Links hover*/
---text-faint: #666;
+--text-faint: #666666;
 /*Link brackets color & Gutter Numbers*/
 
---text-highlight-bg: #hsl(var(--accent-h),var(--accent-s), var(--accent-l));
+--text-highlight-bg: hsl(var(--accent-h),var(--accent-s), var(--accent-l));
 /*Search Matches*/
---text-highlight-bg-active: #hsl(var(--accent-h),var(--accent-s), var(--accent-l));
+--text-highlight-bg-active: hsl(var(--accent-h),var(--accent-s), var(--accent-l));
 /*Active Search Match (Preview Mode)*/
---text-selection: #hsl(var(--accent-h),var(--accent-s), var(--accent-l));
+--text-selection: hsl(var(--accent-h),var(--accent-s), var(--accent-l));
 /*Text Selections*/
 
 --interactive-normal: #2a2a2a;
 /*Button Color*/
 --interactive-hover: #303030;
 /*Button Hovered Color*/
---interactive-accent: #hsl(var(--accent-h),var(--accent-s), calc(1.5*var(--accent-l)));
+--interactive-accent: hsl(var(--accent-h),var(--accent-s), calc(1.5*var(--accent-l)));
 /*Workspace Note Title Underline*/
---interactive-accent-hover: #hsl(var(--accent-h),var(--accent-s), calc(1.5*var(--accent-l)));
+--interactive-accent-hover: hsl(var(--accent-h),var(--accent-s), calc(1.5*var(--accent-l)));
 /*Menu Button Hover*/
 
 --scrollbar-bg: rgba(255, 255, 255, 0.05);
