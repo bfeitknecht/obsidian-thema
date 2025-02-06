@@ -48,37 +48,27 @@ to rewrite it multiple times.
 --text-faint: #666;
 /*Link brackets color & Gutter Numbers*/
 
---text-highlight-bg: rgba(255, 255, 0, 0.4);
+--text-highlight-bg: #hsl(var(--accent-h),var(--accent-s), var(--accent-l));
 /*Search Matches*/
---text-highlight-bg-active: rgba(
-255,
-128,
-0,
-0.4
-);
+--text-highlight-bg-active: #hsl(var(--accent-h),var(--accent-s), var(--accent-l));
 /*Active Search Match (Preview Mode)*/
---text-selection: rgba(23, 48, 77, 0.99);
+--text-selection: #hsl(var(--accent-h),var(--accent-s), var(--accent-l));
 /*Text Selections*/
 
 --interactive-normal: #2a2a2a;
 /*Button Color*/
 --interactive-hover: #303030;
 /*Button Hovered Color*/
---interactive-accent: #483699;
+--interactive-accent: #hsl(var(--accent-h),var(--accent-s), calc(1.5*var(--accent-l)));
 /*Workspace Note Title Underline*/
---interactive-accent-hover: #4d3ca6;
+--interactive-accent-hover: #hsl(var(--accent-h),var(--accent-s), calc(1.5*var(--accent-l)));
 /*Menu Button Hover*/
 
 --scrollbar-bg: rgba(255, 255, 255, 0.05);
 /*Scrollbar Gutter Background*/
 --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
 /*Scrollbar Color*/
---scrollbar-active-thumb-bg: rgba(
-255,
-255,
-255,
-0.2
-);
+--scrollbar-active-thumb-bg: rgba(255,255,255,0.2);
 /*Scrollbar Dragged Color*/
 }
 
