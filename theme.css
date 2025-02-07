@@ -265,7 +265,11 @@ since it includes any border and padding into the height and width values you se
 
 /*Status Bar*/
 .status-bar {
-
+  --status-bar-border-radius: 0px;
+  --status-bar-font-size: .8em;
+  padding: 1 1 1;
+  border: none;
+  gap: unset;
 }
 
 
