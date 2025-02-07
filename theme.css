@@ -264,75 +264,8 @@ since it includes any border and padding into the height and width values you se
 /* (also applies to many plugins displaying file lists in the side bar) */
 
 /*Status Bar*/
-.status-bar{
-  --background-modifier-accent:var(--ax3);
-  --background-modifier-border-focus:var(--ui3);
-  --background-modifier-border-hover:var(--ui2);
-  --background-modifier-border:var(--ui1);
-  --mobile-sidebar-background:var(--bg1);
-  --background-modifier-form-field-highlighted:var(--bg1);
-  --background-modifier-form-field:var(--bg1);
-  --background-modifier-success:var(--color-green);
-  --background-modifier-hover:var(--bg3);
-  --background-modifier-active-hover:var(--bg3);
-  --background-primary:var(--bg1);
-  --background-primary-alt:var(--bg2);
-  --background-secondary:var(--bg2);
-  --background-secondary-alt:var(--bg1);
-  --background-table-rows:var(--bg2);
-  --checkbox-color:var(--ax3);
-  --code-normal:var(--tx1);
-  --divider-color:var(--ui1);
-  --frame-divider-color:var(--ui1);
-  --icon-color-active:var(--tx1);
-  --icon-color-focused:var(--tx1);
-  --icon-color-hover:var(--tx2);
-  --icon-color:var(--tx2);
-  --icon-hex:var(--mono0);
-  --interactive-accent-hover:var(--ax1);
-  --interactive-accent:var(--ax3);
-  --interactive-hover:var(--ui1);
-  --list-marker-color:var(--tx3);
-  --nav-item-background-active:var(--bg3);
-  --nav-item-background-hover:var(--bg3);
-  --nav-item-color:var(--tx2);
-  --nav-item-color-active:var(--tx1);
-  --nav-item-color-hover:var(--tx1);
-  --nav-item-color-selected:var(--tx1);
-  --nav-collapse-icon-color:var(--tx2);
-  --nav-collapse-icon-color-collapsed:var(--tx2);
-  --nav-indentation-guide-color:var(--ui1);
-  --prompt-border-color:var(--ui3);
-  --quote-opening-modifier:var(--ui2);
-  --ribbon-background:var(--bg2);
-  --scrollbar-active-thumb-bg:var(--ui3);
-  --scrollbar-bg:transparent;
-  --scrollbar-thumb-bg:var(--ui1);
-  --search-result-background:var(--bg1);
-  --tab-text-color-focused-active:var(--tx1);
-  --tab-outline-color:var(--ui1);
-  --text-accent-hover:var(--ax2);
-  --text-accent:var(--ax1);
-  --text-blockquote:var(--tx2);
-  --text-bold:var(--tx1);
-  --text-code:var(--tx4);
-  --text-error:var(--color-red);
-  --text-faint:var(--tx3);
-  --text-highlight-bg:var(--hl2);
-  --text-italic:var(--tx1);
-  --text-muted:var(--tx2);
-  --text-normal:var(--tx1);
-  --text-on-accent:var(--sp1);
-  --text-selection:var(--hl1);
-  --text-formatting:var(--tx3);
-  --title-color-inactive:var(--tx2);
-  --title-color:var(--tx1);
-  --titlebar-background:var(--bg2);
-  --titlebar-background-focused:var(--bg2);
-  --titlebar-text-color-focused:var(--tx1);
-  --vault-profile-color:var(--tx1);
-  --vault-profile-color-hover:var(--tx1);
-  --workspace-background-translucent:hsla(var(--base-h),var(--base-s), var(--base-l), 0.7)
+.status-bar {
+
 }
 
 
@@ -528,7 +461,7 @@ h6 {
 }
 /*Reading Mode*/
 .cm-header-1 {
-
+  
 }
 /*Source Mode*/
 .cm-header-2 {
