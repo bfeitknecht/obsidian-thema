@@ -48,11 +48,11 @@ to rewrite it multiple times.
 --text-faint: #666666;
 /*Link brackets color & Gutter Numbers*/
 
---text-highlight-bg: hsl(var(--accent-h),var(--accent-s), var(--accent-l));
+--text-highlight-bg: hsl(var(--accent-h),var(--accent-s), calc(0.5*var(--accent-l)));
 /*Search Matches*/
---text-highlight-bg-active: hsl(var(--accent-h),var(--accent-s), var(--accent-l));
+--text-highlight-bg-active: hsl(var(--accent-h),var(--accent-s), calc(0.8*var(--accent-l)));
 /*Active Search Match (Preview Mode)*/
---text-selection: hsl(var(--accent-h),var(--accent-s), var(--accent-l));
+--text-selection: hsl(var(--accent-h),var(--accent-s), calc(0.6*var(--accent-l)));
 /*Text Selections*/
 
 --interactive-normal: #2a2a2a;
@@ -74,7 +74,6 @@ to rewrite it multiple times.
 
 
 .theme-light {
-
   --background-primary: #ffffff;
   /*Note background*/
   --background-primary-alt: #f5f6f8;
