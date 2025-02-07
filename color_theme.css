@@ -23,18 +23,18 @@ to rewrite it multiple times.
 /*Dark Theme Variables*/
 .theme-dark {
 
---background-modifier-cover: rgba(0, 0, 0, 0.8);
+--background-modifier-cover: green; /*rgba(0, 0, 0, 0.8);*/
 /*Obsidian Title Bar Bg*/
---background-primary: #202020;
+--background-primary: blue; /*#202020;*/
 /*Note background*/
---background-primary-alt:#1a1a1a;
+--background-primary-alt: red; /*#1a1a1a;*/
 /*Note Title background active*/
---background-secondary: #202020;
+--background-secondary: magenta;/*#161616;*/
 /*Sidebar background*/
---background-secondary-alt: #202020;
+--background-secondary-alt: lightblue;/*#000000;*/
 /*Sidebar Title background*/
 
---background-modifier-border: #333333;
+--background-modifier-border: purple; /*#333333;*/
 /*Border outline of quotes, tables, line breaks*/
 
 --text-normal: #dcdcdc;
@@ -76,11 +76,11 @@ to rewrite it multiple times.
 .theme-light {
   --background-primary: #ffffff;
   /*Note background*/
-  --background-primary-alt: #f5f5f5;
+  --background-primary-alt: #f5f6f8;
   /*Note Title background active*/
-  --background-secondary: #ffffff;
+  --background-secondary: #f2f3f5;
   /*Sidebar background*/
-  --background-secondary-alt: #ffffff;
+  --background-secondary-alt: #e3e5e8;
   /*Sidebar Title background*/
 
   --background-modifier-border: #ddd;
